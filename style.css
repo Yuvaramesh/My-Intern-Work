@@ -1,80 +1,42 @@
 * {
-    padding: 0%;
+    padding: 0;
     margin: 0%;
 }
 
 header {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    background: yellow;
-    padding: 0%;
-    margin-top: 10px;
+    color: white;
+    background-color:    
+
 }
-
-
-
-nav {
-    display: flex;
-    align-items: center;
+a{
     text-decoration: none;
-    color: black;
-    gap: 30px;
-
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
 }
 
-
-div {
+nav{
+    
     display: flex;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
-
-button {
+.icons{
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
-
-.API {
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    color: black;
-    border: none;
-   
-}
-
-.HELP {
-    display: inline;
-    justify-content: center;
-    background: transparent;
-    color: black;
-    border: none;
-
-}
-
-.LOGIN {
-    display: inline;
-    justify-content: center;
-    background: transparent;
-    color: black;
-    border: none;
-}
-
-.Signup {
-    display: inline;
-    background: transparent;
-    background: rgb(245, 20, 137);
-    width: 100px;
-    border-radius: 20px;
-    height: 30px;
-    border: none;
-}
-
 #hero{
     width: 100%;
     height: 100vh;
-    background-image: url('./images/Screen.svg');
+    background-image: url('./image/Screen.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }

@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    background-color:    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    
+    display: flex;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image/Screen.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
